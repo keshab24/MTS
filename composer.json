@@ -1,0 +1,18 @@
+{
+   
+    "require-dev": {
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+        "PHP_MTS\\": "PHP_MTS/classes"
+        
+        }
+    },
+    "require": {
+        "graphp/graph": "^1@dev"
+    }
+}

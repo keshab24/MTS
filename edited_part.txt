@@ -1,0 +1,5 @@
+added query to debug
+added query to show todays medicine to take according to start day is less than now date and according to shedule day.
+
+
+add code to github and provide lecturer the link
