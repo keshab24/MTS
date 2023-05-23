@@ -36,8 +36,7 @@ CREATE TABLE `report_images` (
   `image` longblob NOT NULL,
   `name` text NOT NULL,
   `description` text NOT NULL,
-  `created_at` datetime NOT NULL DEFAULT current_timestamp(),
-  -- `updated_at` datetime DEFAULT NULL ON UPDATE current_timestamp()
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 
